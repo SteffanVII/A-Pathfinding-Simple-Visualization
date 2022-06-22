@@ -158,7 +158,6 @@ function App() {
         setter : setClear
       }
     }} >
-
       <div className="App" draggable={false}>
         <div className="cells-container" onMouseUp={() => {
           model = -1;
