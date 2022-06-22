@@ -1,0 +1,63 @@
+#UI {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+#UI .ui-wrapper {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  gap: 10px;
+}
+
+#UI .ui-wrapper .heuristics {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  gap: 5px;
+  background-color: rgba(128, 128, 128, 0.7);
+  color: white;
+  -webkit-box-shadow: 2px 2px 1px 1px rgba(128, 128, 128, 0.473);
+          box-shadow: 2px 2px 1px 1px rgba(128, 128, 128, 0.473);
+  pointer-events: all;
+}
+
+#UI .ui-wrapper .heuristics ul {
+  list-style: none;
+}
+
+#UI .ui-wrapper .heuristics ul li {
+  padding: 2px 0px;
+}
+
+#UI .ui-wrapper .heuristics ul li label {
+  padding-left: 5px;
+}
+
+#UI .ui-wrapper .find-path, #UI .ui-wrapper .clear-walls {
+  color: white;
+  background-color: #619bc2;
+  padding: 15px 10px;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 2px 2px 1px 1px rgba(128, 128, 128, 0.473);
+          box-shadow: 2px 2px 1px 1px rgba(128, 128, 128, 0.473);
+  pointer-events: all;
+}
+/*# sourceMappingURL=ui.css.map */

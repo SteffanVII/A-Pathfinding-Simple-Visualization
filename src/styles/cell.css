@@ -1,0 +1,17 @@
+.cell {
+  --x: 0px;
+  --y: 0px;
+  --cellSize: 0px;
+  --color: white;
+  width: var(--cellSize);
+  height: var(--cellSize);
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  border-radius: 4px;
+  border: 0.5px solid #c9c9c9;
+  background-color: var(--color);
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+/*# sourceMappingURL=cell.css.map */

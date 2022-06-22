@@ -1,0 +1,19 @@
+.cell {
+    --x : 0px;
+    --y : 0px;
+    --cellSize : 0px;
+    --color : white;
+
+    width: var(--cellSize);
+    height: var(--cellSize);
+
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+
+    border-radius: 4px;
+    border: 0.5px solid rgb(201, 201, 201);
+    background-color: var(--color);
+
+    transition: background-color 0.2s;
+}
